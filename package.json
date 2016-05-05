@@ -7,7 +7,7 @@
     "dev": "webpack -d",
     "build": "webpack -p",
     "start": "webpack-dev-server --content-base src",
-    "test": "mocha --compilers js:babel-register --recursive \"app/**/*.spec.js\"",
+    "test": "mocha --compilers js:babel-register \"src/**/*.spec.js\"",
     "test:watch": "npm test -- --watch"
   },
   "repository": {
