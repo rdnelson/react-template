@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "webpack -d",
     "build": "webpack -p",
-    "start": "webpack-dev-server --content-base src",
+    "start": "node server.js",
     "test": "mocha --compilers js:babel-register \"src/**/*.spec.js\"",
     "test:watch": "npm test -- --watch"
   },

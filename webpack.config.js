@@ -6,7 +6,7 @@ var APP_DIR = path.resolve(__dirname, 'src');
 
 var config = {
     entry: [
-        'webpack-dev-server/client?http://0.0.0.0:3000',
+        'webpack-dev-server/client?http://0.0.0.0:8080',
         'webpack/hot/only-dev-server',
         APP_DIR + '/index.js'
     ],
